@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>House Service Dubai</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#book">Book</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero-content" id="home">
+      <h1 data-aos="fade-down">🏠 Dubai House Services</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Fixing ACs, Ovens, Pipelines, Walls — All in 1 place.)</p>
+    </div>
+  </header>
+
+  <section class="section" id="services">
+    <h2 data-aos="fade-up">Our Services</h2>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in">❄️Builder</div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">🔥Electrtion</div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">🔧 Plumber</div>
+    </div>
+  </section>
+
+  <section class="section" id="book">
+    <h2 data-aos="fade-up">Book a Service</h2>
+    <form id="bookingForm" data-aos="fade-up" data-aos-delay="200">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select a Service</option>
+        <option>AC Repair</option>
+        <option>Oven Repair</option>
+        <option>Pipeline Fix</option>
+        <option>Wall Reparing</option>
+        <option>House Renovitation</option>
+        <option>Other</option>
+      </select>
+      <input type="text" placeholder="Your Location in Dubai" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section class="section about" id="about">
+    <h2 data-aos="fade-up">About Us</h2>
+    <p data-aos="fade-up" data-aos-delay="100">
+      We are a trusted house service company based in Dubai with 3 branches and 2 dedicated owners. Our mission is to keep your home running smoothly.
+    </p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2 data-aos="fade-up">Contact Us</h2>
+    <p data-aos="fade-up" data-aos-delay="100">Available 24/7 — Call or WhatsApp now!</p>
+    <div data-aos="fade-up" data-aos-delay="200">
+      <button onclick="window.location.href='tel:+971500000000'">📞 Call Us</button>
+      <button onclick="window.location.href='https://wa.me/971500000000'">💬 WhatsApp</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 House Service Dubai – All Rights Reserved</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
